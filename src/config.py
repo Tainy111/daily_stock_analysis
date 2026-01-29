@@ -299,7 +299,7 @@ class Config:
             gemini_retry_delay=float(os.getenv('GEMINI_RETRY_DELAY', '5.0')),
             openai_api_key=os.getenv('OPENAI_API_KEY'),
             openai_base_url=os.getenv('OPENAI_BASE_URL', 'https://api.minimax.chat/v1'),
-            openai_model=os.getenv('OPENAI_MODEL', 'minimax-m2.1'),
+            openai_model=os.getenv('OPENAI_MODEL', 'MiniMax-M2.1'),
             openai_temperature=float(os.getenv('OPENAI_TEMPERATURE', '0.7')),
             bocha_api_keys=bocha_api_keys,
             tavily_api_keys=tavily_api_keys,
